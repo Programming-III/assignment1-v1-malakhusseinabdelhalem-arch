@@ -1,16 +1,15 @@
 #ifndef REPTILE_H
 #define REPTILE_H
 
+#include <iostream>
+#include <String>
 #include "Animal.h"
 
-//define reptile class here
+class Reptile: public Animal {
+  private :
+    boolean isVenomous;
+}
+  public:
+  Reptile ()
 
-
-
-
-
-
-
-
-
-#endif
+#endif 
